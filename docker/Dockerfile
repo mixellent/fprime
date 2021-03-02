@@ -11,7 +11,7 @@
 #
 # Build this with the --target fprime-base
 ####
-FROM ubuntu:18.04 AS fprime-base
+FROM ubuntu:18.10 AS fprime-base
 # Adding fprime user, group, and password fprime
 RUN groupadd fprime && \
     groupmod -g 1001 fprime && \
